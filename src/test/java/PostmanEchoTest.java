@@ -19,7 +19,7 @@ public class PostmanEchoTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("date", equalTo("The 14th of August") )
+                .body("data", equalTo("The 14th of August") )
         ;
     }
 }
